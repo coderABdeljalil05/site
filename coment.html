@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment</title>
+    <link rel="stylesheet" href="comment.css">
+
+</head>
+<body>
+    <style>
+        body{
+background-image: url(https://c0.wallpaperflare.com/preview/162/70/475/aerial-background-beverage-blog.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    }
+    .navbar {
+        overflow: hidden;
+        background-color:#42455a ;
+        position: fixed;
+        top: 0;
+        width: 100%; 
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+       font-family: cursive;    
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: larger;
+      }
+      .navbar a:hover {
+        background: pink;
+        color: #42455a;
+        border-radius: 30%;
+
+      }   .container{
+        width: 600px;
+        border: 2px solid #42455a;
+        padding: 15px 10px;
+            }
+            .container h2{
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: cursive;
+        font-size: 50px;
+        font-style: italic;
+        text-decoration: underline;
+        text-shadow: 4px 4px rgb(124, 54, 124);
+        background: #42455a;
+        color: pink;
+        border-radius: 10%;
+            }
+            textarea{
+        height: 20px;
+        width: 100%;
+        border: none;
+        color: black;
+        border-bottom: 2px solid black;
+        background-color: white;
+        margin-bottom: 10px;
+        resize: none;
+        outline: none;
+        transition: .5s;
+    }
+
+        input[type="submit"],button{
+padding: 10px 15px;
+border: 2px solid #42455a;
+outline:none;
+border-radius: 5px;
+color: pink;
+background: #42455a;
+border-radius: 50%;
+text-transform: uppercase;
+font-weight: bold;
+cursor: pointer;  }
+
+button
+{
+  color: pink;
+  background: #42455a;
+}
+.btn
+{
+    display: none
+}
+
+    </style>
+    
+    <div class="navbar">
+        <a href="comment.html">comment</a>
+        </div>
+        <div class="container">
+            <h2>leave us a comment</h2>
+            <form>
+                <textarea placeholder="add your comment"></textarea>
+                <div class="btn">
+        <input type="submit" value="comment">
+        <button id="clear" href="#">cancel</button>
+                </div>
+            </form>
+        </div>
+        <script src="plugin.js"></script>
+        
+        
+        
+</body>
+</html>
